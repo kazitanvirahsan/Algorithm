@@ -1,5 +1,7 @@
 #https://www.hackerearth.com/practice/codemonk/
-# Partually accepted
+# Author : Kazi Tanvir Ahsan
+# 06.03.2022
+# Partially accepted
 
 def count_ops(s, n , k ):
     t_max           = ''

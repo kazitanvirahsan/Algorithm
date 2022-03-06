@@ -1,4 +1,6 @@
 #https://www.hackerearth.com/practice/codemonk/
+# Partually accepted
+
 def count_ops(s, n , k ):
     t_max           = ''
     t_pos           = []
@@ -12,7 +14,6 @@ def count_ops(s, n , k ):
             t_max = s
             t_pos = [i]
         
-        print(s)
         s   = s[1:] + s[:1]
         
     return t_pos
